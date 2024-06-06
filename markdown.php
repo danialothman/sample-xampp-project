@@ -1,6 +1,9 @@
 <?php
 // get server ip
 $localIP = $_SERVER['SERVER_ADDR'];
+if ($localIP === '::1') {
+    $localIP = '127.0.0.1';
+}
 
 // markdown content
 $markdownContent = <<<EOD
@@ -42,7 +45,7 @@ Potential issues not running as admin:
 
 site is accessible on the same network at:
 - http://$localIP:3000
-- http://$localIP/sample
+- http://$localIP/sample-xampp-project
 
 EOD;
 
