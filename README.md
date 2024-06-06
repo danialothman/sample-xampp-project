@@ -22,3 +22,9 @@ Set Up the Database in phpMyAdmin
      - id (INT, primary key, auto_increment)
      - count (INT)
    - Click Save.
+
+## Errors from Event Viewer
+
+### Got error 176 when reading table '.\mysql\db'
+
+https://stackoverflow.com/questions/60864367/1030-got-error-176-read-page-with-wrong-checksum-from-storage-engine-aria
