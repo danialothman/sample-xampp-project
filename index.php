@@ -46,6 +46,8 @@ $conn->close();
 </form>
 <p>this counter is connected to a database.</p>
 
+<p>This project is on <a href="https://github.com/danialothman/sample-xampp-project" target="_blank">GitHub</a>.</p>
+
 
 <?php include 'markdown.php'; ?>
 
