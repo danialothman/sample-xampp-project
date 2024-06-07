@@ -10,13 +10,17 @@ $markdownContent = <<<EOD
 
 ## Configs
 
-### xampp\apache\httpd.conf
+### Apache httpd.conf
+
+xampp\apache\conf\httpd.conf
 
 ```
 Listen 3000
 ```
 
-### xampp\apache\httpd-vhosts.conf
+### Apache httpd-vhosts.conf
+
+xampp\apache\conf\\extra\httpd-vhosts.conf
 
 ~~~
 <VirtualHost *:3000>
